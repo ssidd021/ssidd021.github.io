@@ -1,0 +1,141 @@
+.product-info{
+    background-color: #dbf5c1;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    border-radius:  50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+
+}
+
+
+#product-info_image{
+    height: 200px;
+    margin: 30px;
+    margin-top: 100px;
+
+}
+
+#product-info_text{
+    font-family: LouisGeorge;
+    font-size: 45px;
+    margin: 80px;
+
+
+
+}
+#displayProduct{
+ 
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%
+    
+
+}
+.add_button{
+    justify-content: center;
+    margin-top: 7px;
+    font-family: LemonMilk;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #c094fc;
+    display: flex;
+    margin-left: 20px;
+    box-shadow: 0px 0px;
+
+}
+
+.product{
+    margin-top: 2%;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 40px;
+  }
+
+.product-image{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #dbf5c1;
+    width: 220px;
+    height: 200px;
+
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c094fc;
+    color: black;
+    text-align: center;
+    font-family: LemonMilk;
+    font-size: 10px;
+
+
+
+  }
+
+.product-image img{
+    margin-top: 40px;
+}
+.product-price{
+    margin-top: 7px;
+    font-family: LemonMilk;
+    font-size: medium;
+
+    border-radius: 10px;
+
+    background-color: #dbf5c1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+.product-checkbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    font-family: LemonMilk;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #c094fc;
+
+}
+
+.product-category{
+    margin-top: 7px;
+    font-family: LemonMilk;
+    font-size: medium;
+    text-align: center;
+    color:#ffffff;
+    border-radius: 10px;
+    background-color: #c094fc;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+@font-face {
+    font-family: LemonMilk;
+    src: url(LEMONMILK-Regular.otf);
+  }
+
+@font-face {
+font-family: LouisGeorge;
+src: url(LouisGeorgeCafe.ttf);
+}

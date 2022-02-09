@@ -1,0 +1,47 @@
+.header-container{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #shop-logo{
+    height: 100px;
+}
+.header-icon{
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 20;
+    margin-left: 30px;
+
+}
+
+.shop-logo {
+    background-color: #c094fc;
+    border-radius: 25px;
+    padding: 5px;
+}
+.shop-logo:hover {
+    background-color: #5c3a8b;
+    cursor: pointer;
+ }
+
+
+.header-icons{
+    margin-top: 20;
+    margin-left: 30px;
+}
+
+
+figcaption {
+    color: rgb(39, 39, 39);
+    font-family: LemonMilk;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 20;
+    margin-left: 25px;
+    font-size: 8pt;
+    font-weight: bold;
+  }  
+
